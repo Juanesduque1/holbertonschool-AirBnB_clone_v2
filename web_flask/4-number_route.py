@@ -28,7 +28,7 @@ def python(text="is cool"):
 
 @app.route('/number/<int:n>', strict_slashes=False)
 def int(n):
-    return '{} is number'.format(n)
+    return '{} is a number'.format(n)
 
 
 if __name__ == '__main__':
